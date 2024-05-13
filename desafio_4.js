@@ -1,5 +1,5 @@
 function operacoesResto(dividendo, divisor){
-    let dividir = console.log(Math.floor(dividendo / divisor));
+    let dividir = console.log(dividendo / divisor);
     let resto = console.log(dividendo % divisor);
     
 }
