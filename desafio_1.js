@@ -15,4 +15,4 @@ function operacoes(valor1, valor2) {
     }
 }
 
-operacoes (20, 0)
+operacoes (20, 0);

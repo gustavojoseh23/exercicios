@@ -1,5 +1,5 @@
 function baseElevada(base, expoente){
-    return console.log(Math.pow(base, expoente))
+    return console.log(Math.pow(base, expoente));
 }
 
-baseElevada(5, 8)
+baseElevada(5, 8);
