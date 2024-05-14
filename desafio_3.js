@@ -1,5 +1,9 @@
-function baseElevada(base, expoente){
-    return console.log(Math.pow(base, expoente));
-}
+const base = 2
+const expoente = 3
 
-baseElevada(5, 8);
+let resultado = 1   
+for (let i = 0; i < expoente; i++) { 
+    resultado *= base
+};
+
+console.log(resultado);

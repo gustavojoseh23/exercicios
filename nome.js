@@ -1,12 +1,7 @@
-let nomeCompleto = 'Gustavo Joseh da Costa Conceição';
+let nomeCompleto = 'Gustavo Joseh da Costa Conceicao'
 console.log(nomeCompleto);
 
-let nomeReverso = nomeCompleto.split('').reverse().join('');
-console.log(nomeReverso);
-
-let nomeAocontrario = nomeCompleto.split(' ');
-let ultimoNome = nomeAocontrario.pop();
-let sobrenome = nomeAocontrario.pop();
-nomeAocontrario = nomeAocontrario.join(' '); 
-let novoNome = `${ultimoNome} ${sobrenome} ${nomeAocontrario}`;
-console.log(novoNome);
+let nomeReverso = 'Gustavo Joseh da Costa Conceicao';
+    for (i = nomeReverso.length - 1; i >= 0; i--){
+        console.log(nomeReverso[i])
+    }
