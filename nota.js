@@ -1,11 +1,16 @@
-let nota1 = 8;
-let nota2 = 7.5;
-let nota3 = 9;
-let nota4 = 6.5;
-let nota5 = 8.5;
+let notas = [4.5, 5.6, 7.8, 8.9, 9.0];
 
-let totalNotas = nota1 + nota2 + nota3 + nota4 + nota5;
-console.log(totalNotas);
+let totalNotas = 0
+let quantidade = 0
+let i = 0;
 
-let mediaTotal = totalNotas / 5;
-console.log(mediaTotal);
+while( i < notas.length) {
+    totalNotas += notas[i]
+    quantidade++
+    i++
+
+}
+
+media = totalNotas / quantidade
+
+console.log(totalNotas, quantidade, media)
